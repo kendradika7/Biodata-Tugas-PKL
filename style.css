@@ -4,14 +4,20 @@
     font-family: Arial;
 }
 
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
 .card {
     width: 350px;
     height: 400px;
-    background: rgb(206, 206, 206);
+    background-color: rgb(255, 255, 255);
     margin: auto;
     margin-top: 110px;
     padding: 40px;
-    border: 5px solid black;
+    box-shadow: 15px 15px 15px rgb(173, 0, 0);
+    border-radius: 5px;
 
 }
 .judul {
@@ -25,4 +31,5 @@ ul li {
     margin: 30px;
     margin-left: 0;
     margin-top: 40px;
+    list-style: none;
 }
